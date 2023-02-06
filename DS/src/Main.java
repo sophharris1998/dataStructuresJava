@@ -1,3 +1,5 @@
+import java.util.ArrayList;
+
 public class Main {
     public static void main(String[] args) {
         int[] nums = new int[]{1, 2, 3, 4, 5, 6};
@@ -17,5 +19,10 @@ public class Main {
         for (String name : names){
             System.out.println("My name is " + name);
         }
+
+        ArrayList<String> animals = new ArrayList<>();
+        animals.add("Dog");
+        animals.add("Monkey");
+        System.out.println(animals);
     }
 }
