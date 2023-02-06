@@ -24,5 +24,15 @@ public class Main {
         animals.add("Dog");
         animals.add("Monkey");
         System.out.println(animals);
+
+        Boolean hungry = false;
+        if (
+                hungry == true
+        ) {
+          System.out.println("I am not hungry");
+        }
+       else {
+            System.out.println("I am getting hangry!!!!!!");
+        }
     }
 }
